@@ -1,0 +1,17 @@
+infinispan:
+  remote:
+    server-list: 192.168.58.101:11333
+    client-intelligence: BASIC
+    near-cache-mode: INVALIDATED
+    near-cache-max-entries: 100
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    
+evershift:
+  cache:
+    infinispan.client.hotrod.server_list: 192.168.58.101:11333
+    infinispan.client.hotrod.max_retries: 1
