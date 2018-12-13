@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public final class Data {
-   public static final String BASQUE_NAMES_CACHE ="basquenames";
+   public static final String BASQUE_NAMES_CACHE ="basque-names";
 
    public static final List<String> NAMES = Arrays.asList(
          "Aitor", "Ander", "Andoni", "Asier", "Eneko", "Gorka", "Koldo", "Mattin", "Xabier",
